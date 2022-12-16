@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new year is near!</title>
+    <style>
+body{
+    margin: 0;
+}
+.test{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(1, 1, 36);
+}
+.fire-box{
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 742px 0 0 379px;
+    border: 1px solid;    
+}
+.fire-box-top{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin: 760px 0 0 380px;
+}
+.fire-box-bottom{
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 785px 0 0 380px;
+    z-index: 1;
+}
+.fire-box-shadow{
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgba(17, 17, 17, 0.511);
+    margin: 795px 0 0 379px;
+    z-index: 1;
+}
+.test1{
+    position: absolute;
+    margin: 770px 0 0 400px;
+    width: 10px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: transparent;
+    animation-name: first-sparkle;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 10s;
+}
+
+@keyframes first-sparkle{
+    0%{        
+        box-shadow: 0 0 0;
+        background-color: transparent;
+    }
+    4%{        
+        box-shadow: 0 0 0;
+        background-color: transparent;
+    }
+    5%{        
+        box-shadow: 0 0 20px yellowgreen, 0 0 14px yellowgreen;
+        background-color: yellow;
+    }
+    40%{
+        transform: rotate(15deg);
+        box-shadow: 0 0 20px yellowgreen, 0 0 14px yellowgreen;
+        background-color: yellow;
+ 
+    }
+    41%{
+        box-shadow: 0 0 0;   
+        background-color: transparent;
+    }
+    58%{
+        margin:300px 0 0 470px;
+
+    }
+    100%{
+        background-color: transparent;
+        box-shadow: 0 0 0;   
+    }
+}
+
+.splash1{
+    position: absolute;
+    margin:320px 0 0 460px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    animation-name: big-splash1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 10s;
+}
+
+@keyframes big-splash1{
+    0%{
+        background-color: transparent;
+    }
+    38%{
+        background-color: transparent;
+    }
+    39%{
+        transform: scale(1);
+        background-color: rgba(245, 245, 153, 0.48);
+    }
+    61%{
+        transform: scale(34);
+        background-color: transparent;
+    }
+    100%{
+        background-color: transparent;
+    }
+}
+.splash2{
+    position: absolute;
+    margin:320px 0 0 460px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    animation-name: big-splash2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 10s;
+}
+
+@keyframes big-splash2{
+    0%{
+        background-color: transparent;
+    }
+    41%{
+        background-color: transparent;
+    }
+    43%{
+        transform: scale(1);
+        background-color: rgba(245, 245, 149, 0.377);
+    }
+    61%{
+        transform: scale(14);
+        background-color: transparent;
+    }
+    100%{
+        background-color: transparent;
+    }
+}
+.splash3{
+    position: absolute;
+    margin:320px 0 0 460px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    animation-name: big-splash3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 10s;
+}
+
+@keyframes big-splash3{
+    0%{
+        background-color: transparent;
+    }
+    40%{
+        background-color: transparent;
+    }
+    41%{
+        transform: scale(1);
+        background-color: rgba(235, 235, 154, 0.518);
+    }
+    61%{
+        transform: scale(24);
+        background-color: transparent;
+    }
+    100%{
+        background-color: transparent;
+    }
+}
+
+.fw{
+    position: absolute;
+    width: 20px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 50%;
+    margin: 300px 0 0 470px;
+}
+
+.fw1{
+    margin: 300px 0 0 470px;
+    animation-name: fire1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 10s;
+}
+
+@keyframes fire1{
+0%{
+    background-color: transparent;
+    box-shadow: 0 0 0;
+}
+40%{
+    background-color: transparent;
+    box-shadow: 0 0 0;
+}
+41%{
+    margin: 300px 0 0 470px;
+
+    background-color: yellow;
+    box-shadow: 0 0 20px yellowgreen, 0 0 14px yellowgreen;
+
+}
+60%{
+    transform: rotate(-45deg);
+    margin: 100px 0 0 50px;
+    background-color: yellow;
+    box-shadow: 0 0 20px yellowgreen, 0 0 14px yellowgreen;
+}
+61%{
+    box-shadow: 0 0 0;   
+    background-color: transparent;
+}
+100%{
+    background-color: transparent;
+    box-shadow: 0 0 0;   
+}
+}
+
+.fw2{
+    margin: 300px 0 0 470px;
+    animation-name: fire2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 10s;
+}
+@keyframes fire2{
+    0%{
+        background-color: transparent;
+        box-shadow: 0 0 0;
+    }
+    40%{
+        background-color: transparent;
+        box-shadow: 0 0 0;
+    }
+    41%{
+        margin: 300px 0 0 470px;
+        background-color: yellow;
+        box-shadow: 0 0 20px yellowgreen, 0 0 14px yellowgreen;
+    
+    }
+    60%{
+        transform: rotate(10deg);
+        margin: 100px 0 0 490px;
+        background-color: yellow;
+        box-shadow: 0 0 20px yellowgreen, 0 0 14px yellowgreen;
+    }
+    61%{
+        box-shadow: 0 0 0;   
+        background-color: transparent;
+    }
+    100%{
+        background-color: transparent;
+        box-shadow: 0 0 0;   
+    }
+}
+
+.fw3{
+    margin: 300px 0 0 470px;
+    animation-name: fire3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 10s;
+}
+@keyframes fire3{
+    0%{
+        background-color: transparent;
+        box-shadow: 0 0 0;
+    }
+    40%{
+        background-color: transparent;
+        box-shadow: 0 0 0;
+    }
+    41%{
+        margin: 300px 0 0 470px;
+        background-color: yellow;
+        box-shadow: 0 0 20px yellowgreen, 0 0 14px yellowgreen;
+    
+    }
+    60%{
+        transform: rotate(45deg);
+        margin: 50px 0 0 750px;
+        background-color: yellow;
+        box-shadow: 0 0 20px yellowgreen, 0 0 14px yellowgreen;
+    }
+    61%{
+        box-shadow: 0 0 0;   
+        background-color: transparent;
+    }
+    100%{
+        background-color: transparent;
+        box-shadow: 0 0 0;   
+    }
+}
+
+.fw4{
+    margin: 300px 0 0 470px;
+    animation-name: fire4;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 10s;
+}
+@keyframes fire4{
+    0%{
+        background-color: transparent;
+        box-shadow: 0 0 0;
+    }
+    40%{
+        background-color: transparent;
+        box-shadow: 0 0 0;
+    }
+    41%{
+        margin: 300px 0 0 470px;
+        background-color: yellow;
+        box-shadow: 0 0 20px yellowgreen, 0 0 14px yellowgreen;
+    
+    }
+    60%{
+        transform: rotate(-15deg);
+        margin: 180px 0 0 370px;
+        background-color: yellow;
+        box-shadow: 0 0 20px yellowgreen, 0 0 14px yellowgreen;
+    }
+    61%{
+        box-shadow: 0 0 0;   
+        background-color: transparent;
+    }
+    100%{
+        background-color: transparent;
+        box-shadow: 0 0 0;   
+    }
+}
+
+.fw5{
+    margin: 300px 0 0 470px;
+    animation-name: fire5;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 10s;
+}
+@keyframes fire5{
+    0%{
+        background-color: transparent;
+        box-shadow: 0 0 0;
+    }
+    40%{
+        background-color: transparent;
+        box-shadow: 0 0 0;
+    }
+    41%{
+        margin: 300px 0 0 470px;
+        background-color: yellow;
+        box-shadow: 0 0 20px yellowgreen, 0 0 14px yellowgreen;
+    }
+    60%{        
+        transform: rotate(-20deg);
+        margin: 400px 0 0 550px;
+        background-color: yellow;
+        box-shadow: 0 0 20px yellowgreen, 0 0 14px yellowgreen;
+    }
+    61%{
+        box-shadow: 0 0 0;   
+        background-color: transparent;
+    }
+    100%{
+        background-color: transparent;
+        box-shadow: 0 0 0;   
+    }
+}
+
+.fw6{
+    margin: 300px 0 0 470px;
+    animation-name: fire6;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 10s;
+}
+@keyframes fire6{
+    0%{
+        background-color: transparent;
+        box-shadow: 0 0 0;
+    }
+    40%{
+        background-color: transparent;
+        box-shadow: 0 0 0;
+    }
+    41%{
+        margin: 300px 0 0 470px;
+    
+        background-color: yellow;
+        box-shadow: 0 0 20px yellowgreen, 0 0 14px yellowgreen;
+    
+    }
+    60%{
+        transform: rotate(40deg);
+        margin: 500px 0 0 250px;
+        background-color: yellow;
+        box-shadow: 0 0 20px yellowgreen, 0 0 14px yellowgreen;
+    }
+    61%{
+        box-shadow: 0 0 0;   
+        background-color: transparent;
+    }
+    100%{
+        background-color: transparent;
+        box-shadow: 0 0 0;   
+    }
+}
+
+.fw7{
+    margin: 300px 0 0 470px;
+    animation-name: fire7;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 10s;
+}
+@keyframes fire7{
+    0%{
+        background-color: transparent;
+        box-shadow: 0 0 0;
+    }
+    40%{
+        background-color: transparent;
+        box-shadow: 0 0 0;
+    }
+    41%{
+        margin: 300px 0 0 470px;
+    
+        background-color: yellow;
+        box-shadow: 0 0 20px yellowgreen, 0 0 14px yellowgreen;
+    
+    }
+    60%{
+        transform: rotate(-30deg);
+        margin: 600px 0 0 650px;
+        background-color: yellow;
+        box-shadow: 0 0 20px yellowgreen, 0 0 14px yellowgreen;
+    }
+    61%{
+        box-shadow: 0 0 0;   
+        background-color: transparent;
+    }
+    100%{
+        background-color: transparent;
+        box-shadow: 0 0 0;   
+    }
+}
+
+.fw8{
+    margin: 300px 0 0 470px;
+    animation-name: fire8;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 10s;
+}
+@keyframes fire8{
+    0%{
+        background-color: transparent;
+        box-shadow: 0 0 0;
+    }
+    40%{
+        background-color: transparent;
+        box-shadow: 0 0 0;
+    }
+    41%{
+        margin: 300px 0 0 470px;
+    
+        background-color: yellow;
+        box-shadow: 0 0 20px yellowgreen, 0 0 14px yellowgreen;
+    
+    }
+    60%{
+        transform: rotate(-20deg);
+        margin: 500px 0 0 550px;
+        background-color: yellow;
+        box-shadow: 0 0 20px yellowgreen, 0 0 14px yellowgreen;
+    }
+    61%{
+        box-shadow: 0 0 0;   
+        background-color: transparent;
+    }
+    100%{
+        background-color: transparent;
+        box-shadow: 0 0 0;   
+    }
+}
+
+.fw9{
+    margin: 300px 0 0 470px;
+    animation-name: fire9;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 10s;
+}
+@keyframes fire9{
+    0%{
+        background-color: transparent;
+        box-shadow: 0 0 0;
+    }
+    40%{
+        background-color: transparent;
+        box-shadow: 0 0 0;
+    }
+    41%{
+        margin: 300px 0 0 470px;
+    
+        background-color: yellow;
+        box-shadow: 0 0 20px yellowgreen, 0 0 14px yellowgreen;
+    
+    }
+    60%{
+        transform: rotate(30deg);
+        margin: 200px 0 0 550px;
+        background-color: yellow;
+        box-shadow: 0 0 20px yellowgreen, 0 0 14px yellowgreen;
+    }
+    61%{
+        box-shadow: 0 0 0;   
+        background-color: transparent;
+    }
+    100%{
+        background-color: transparent;
+        box-shadow: 0 0 0;   
+    }
+}
+
+.fw10{
+    margin: 300px 0 0 470px;
+    animation-name: fire10;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 10s;
+}
+@keyframes fire10{
+    0%{
+        background-color: transparent;
+        box-shadow: 0 0 0;
+    }
+    40%{
+        background-color: transparent;
+        box-shadow: 0 0 0;
+    }
+    41%{
+        margin: 300px 0 0 470px;
+        background-color: yellow;
+        box-shadow: 0 0 20px yellowgreen, 0 0 14px yellowgreen;
+    }
+    60%{
+        transform: rotate(40deg);
+        margin: 150px 0 0 670px;
+        background-color: yellow;
+        box-shadow: 0 0 20px yellowgreen, 0 0 14px yellowgreen;
+    }
+    61%{
+        box-shadow: 0 0 0;   
+        background-color: transparent;
+    }
+    100%{
+        background-color: transparent;
+        box-shadow: 0 0 0;   
+    }
+}
+
+.snow{
+    position: fixed;
+    width: 100%;
+    height: 15%;
+    bottom: 0px;
+    background-color: rgb(197, 197, 197);
+}
+
+.snowman{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    margin: -460px 0 0 600px;
+}
+
+.head{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 47%;
+    background-color: white;
+    margin: 35px 0 0 100px;
+    border-bottom: 0.5px solid black;
+    z-index: 3;
+}
+.eye{
+    width: 11px;
+    height: 17px;
+    color: transparent;
+    background-color: #111;
+    border-radius: 50%;
+    margin: 30px 0 0 25px;
+}
+
+.eye::after{
+    content: "O";
+    color: transparent;
+    width: 15px;
+    height: 15px;
+    background-color: #111;
+    border-radius: 50%;
+    margin-left: 23px;
+}
+.carrot{
+    margin: 12px 0 0 11px;
+    transform: rotate(155deg);
+    width: 10px;
+    height: 3px;
+    border-left: 29px solid orangered;
+    border-right: 0px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+}
+.smile1{
+    position: absolute;
+    width: 10px;
+    height: 5px;
+    border-radius: 40%;
+    background-color: #111;
+    margin:6px 0 0 22px;
+    transform: rotate(30deg);
+}
+.smile2{
+    position: absolute;
+    width: 10px;
+    height: 5px;
+    border-radius: 40%;
+    background-color: #111;
+    margin:10px 0 0 42px;
+}
+.smile3{
+    position: absolute;
+    width: 10px;
+    height: 5px;
+    border-radius: 40%;
+    background-color: #111;
+    margin:6px 0 0 62px;
+    transform: rotate(-30deg);
+}
+
+.stomach{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 47%;
+    background-color: white;
+    margin: 125px 0 0 92px;
+    border-bottom: 0.5px solid black;
+    z-index: 2;
+}
+
+.hand1{
+    position: absolute;
+    width: 35px;
+    height: 4px;
+    background-color: #111;
+    margin: 35px 0 0 -32px;
+    transform: rotate(28deg);
+    animation-name: hello-left;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.finger1-left{
+    position: absolute;
+    width: 12px;
+    height: 4px;
+    background-color: #111;
+    margin: 0 0 0 -2px;
+}
+.finger2-left{
+    position: absolute;
+    width: 12px;
+    height: 4px;
+    background-color: #111;
+    margin: -5px 0 0 0;
+    transform: rotate(45deg);
+}
+.finger3-left{
+    position: absolute;
+    width: 12px;
+    height: 4px;
+    background-color: #111;
+    margin: 5px 0 0 0;
+    transform: rotate(-40deg);
+}
+
+@keyframes hello-left{
+    13.5%,38.5%,63.5%{
+        transform:rotate(31deg);
+}
+    26%,51%{
+        transform:rotate(25deg);
+}
+}
+
+.hand2{
+    position: absolute;
+    width: 55px;
+    height: 4px;
+    background-color: #111;
+    margin: 35px 0 0 98px;
+    transform: rotate(-28deg);
+    animation-name: hello-right;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+    }
+.finger1-right{
+    position: absolute;
+    width: 15px;
+    height: 4px;
+    background-color: #111;
+    margin: 0 0 0 55px;
+}
+.finger2-right{
+    position: absolute;
+    width: 12px;
+    height: 4px;
+    background-color: #111;
+    margin: -5px 0 0 55px;
+    transform: rotate(-40deg);
+}
+.finger3-right{
+    position: absolute;
+    width: 12px;
+    height: 4px;
+    background-color: #111;
+    margin: 5px 0 0 55px;
+    transform: rotate(45deg);
+}
+.circle{
+    margin: 43px 0 0 98px;
+    width: 7px;
+    height: 12px;
+    border-radius: 45%;
+    background-color: #111;
+}
+
+@keyframes hello-right{
+    13.5%,38.5%,63.5%{
+        transform:rotate(-32deg);
+}
+    26%,51%{
+        transform:rotate(-24deg);
+}
+}
+
+.button{
+    position: absolute;
+    width: 8px;
+    height: 12px;
+    background-color: #111;
+    border-radius: 50%;
+}
+.button1{
+    transform: rotate(9deg);
+    margin: -15px 0 0 30px;
+}
+.button2{
+    transform: rotate(0deg);
+    margin: 10px 0 0 27px;
+}
+.button3{
+    transform: rotate(-9deg);
+    margin: 35px 0 0 30px;
+}
+
+.lower-body{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 47%;
+    background-color: white;
+    margin: 230px 0 0 80px;
+    border-bottom: 0.5px solid black;
+    z-index: 1;
+}
+.shadow{
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(17, 17, 17, 0.511);
+    margin: 355px 0 0 95px;
+    z-index: 0;
+}
+
+    </style>
+</head>
+<body>
+    <div class="test">
+            <div class="fire-box-top"></div>
+            <div class="fire-box"></div>
+            <div class="fire-box-shadow"></div>
+            <div class="fire-box-bottom"></div>
+            <div class="test1"></div>
+            <div class="splash1"></div>
+            <div class="splash2"></div>
+            <div class="splash3"></div>
+            <div class="fw fw1"></div>
+            <div class="fw fw2"></div>
+            <div class="fw fw3"></div>
+            <div class="fw fw4"></div>
+            <div class="fw fw5"></div>
+            <div class="fw fw6"></div>
+            <div class="fw fw7"></div>
+            <div class="fw fw8"></div>
+            <div class="fw fw9"></div>
+            <div class="fw fw10"></div>
+            <div class="snow"></div>
+    </div>
+    <div class="snow"></div>
+
+    <div class="snowman">
+        <div class="head">
+            <div class="eye">O</div>
+            <div class="carrot"></div>
+            <div class="smile1"></div>
+            <div class="smile2"></div>
+            <div class="smile3"></div>
+        </div>
+        <div class="stomach">
+            <div class="hand1">
+                <div class="finger1-left"></div>
+                <div class="finger2-left"></div>
+                <div class="finger3-left"></div>
+            </div>
+            <div class="hand2">
+                <div class="finger1-right"></div>
+                <div class="finger2-right"></div>
+                <div class="finger3-right"></div>
+            </div>
+            <div class="circle"></div>
+            <div class="for-buttons">
+                <div class="button button1"></div>
+                <div class="button button2"></div>
+                <div class="button button3"></div>
+            </div>
+        </div>    
+        <div class="lower-body"></div>
+        <div class="shadow"></div>
+    </div>
+</body>
+</html>
